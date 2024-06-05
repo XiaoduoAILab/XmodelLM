@@ -20,9 +20,8 @@ We introduce Xmodel-LM, a compact and efficient 1.1B language model pre-trained 
 
 ### Commonsense Reasoning
 
-| Model | ARC-c | ARC-e | Boolq | HS. | OB. | PiQA | SciQ | TQ. | Wino. | Avg |
+| Model | ARC-c | ARC-e | Boolq | HellaSwag | OpenbookQA | PiQA | SciQ | TriviaQA | Winogrande | Avg |
 |-------|-------|-------|-------|-----|-----|------|------|-----|-------|-----|
-|       |       |       |       |     |     |      |      |     |       |     |
 | OPT-1.3B | 23.29 | 57.03 | 57.80 | 41.52 | 23.20 | 71.71 | 84.30 | 7.48 | 59.59 | 47.32 |
 | Pythia-1.4B | 25.60 | 57.58 | 60.34 | 39.81 | 20.20 | 71.06 | 85.20 | 5.01 | 56.20 | 47.00 |
 | TinyLLaMA-3T-1.1B | 27.82 | 60.31 | 57.83 | 44.98 | 21.80 | 73.34 | 88.90 | 11.30 | 59.12 | 48.59 |
@@ -35,9 +34,8 @@ We introduce Xmodel-LM, a compact and efficient 1.1B language model pre-trained 
 
 ### Problem Solving
 
-| Model | BBH | GLUE | GSM8K | MMLU | Avg | Avg w.o. GSM8k |
+| Model | BBH (3-shot) | GLUE (5-shot) | GSM8K GLUE (5-shot) | MMLU GLUE (5-shot) | Avg | Avg w.o. GSM8k |
 |-------|-----|------|-------|------|-----|----------------|
-|       | 3-shot | 5-shot | 5-shot | 5-shot |   |                 |
 | OPT-1.3B | 22.67 | 51.06 | 0.83  | 26.70 | 25.32 | 33.48         |
 | Pythia-1.4B | 25.37 | 52.23 | 1.63  | 25.40 | 26.16 | 34.33         |
 | MobileLLaMA-1.4B | 23.48 | 43.34 | 1.44  | 24.60 | 23.22 | 30.47         |
