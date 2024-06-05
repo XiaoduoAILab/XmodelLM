@@ -1,3 +1,3 @@
 <h1 align="center">
-Xmodel_LM
+Xmodel-LM
 </h1>
