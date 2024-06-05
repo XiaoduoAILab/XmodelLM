@@ -18,7 +18,7 @@ We introduce Xmodel-LM, a compact and efficient 1.1B language model pretrained 
 
 ## 🛠️ Install
 
-1. Clone this repository and navigate to MobileVLM folder
+1. Clone this repository and navigate to XmodelLM folder
    ```bash
    git clone https://github.com/XiaoduoAILab/XmodelLM.git
    cd xmodellm
@@ -31,7 +31,7 @@ We introduce Xmodel-LM, a compact and efficient 1.1B language model pretrained 
 
 ## 🗝️ Quick Start
 
-#### Example for Xmodel_VLM model inference
+#### Example for Xmodel_LM model inference
 ```bash
 python generate.py
 ```
