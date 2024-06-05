@@ -1,5 +1,5 @@
 <h1 align="center">
-Xmodel-LM
+Xmodel_LM-1.1B
 </h1>
 
 <h5 align="center">
