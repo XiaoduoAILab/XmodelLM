@@ -34,7 +34,7 @@ We introduce Xmodel-LM, a compact and efficient 1.1B language model pre-trained 
 
 ### Problem Solving
 
-| Model | BBH (3-shot) | GLUE (5-shot) | GSM8K GLUE (5-shot) | MMLU GLUE (5-shot) | Avg | Avg w.o. GSM8k |
+| Model | BBH (3-shot) | GLUE (5-shot) | GSM8K (5-shot) | MMLU (5-shot) | Avg | Avg w.o. GSM8k |
 |-------|-----|------|-------|------|-----|----------------|
 | OPT-1.3B | 22.67 | 51.06 | 0.83  | 26.70 | 25.32 | 33.48         |
 | Pythia-1.4B | 25.37 | 52.23 | 1.63  | 25.40 | 26.16 | 34.33         |
