@@ -14,7 +14,7 @@ Xmodel_LM-1.1B
 
 ## 🌟 Introduction
 
-We introduce Xmodel-LM, a compact and efficient 1.1B language model pretrained on over 2 trillion tokens. Trained on our self-built dataset (Xdata), which balances Chinese and English corpora based on downstream task optimization, Xmodel-LM exhibits remarkable performance despite its smaller size. It notably surpasses existing open-source language models of similar scale.
+We introduce Xmodel-LM, a compact and efficient 1.1B language model pre-trained on over 2 trillion tokens. Trained on our self-built dataset (Xdata), which balances Chinese and English corpora based on downstream task optimization, Xmodel-LM exhibits remarkable performance despite its smaller size. It notably surpasses existing open-source language models of similar scale.
 
 ## 🛠️ Install
 
