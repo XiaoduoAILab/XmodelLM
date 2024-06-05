@@ -12,4 +12,23 @@ Xmodel-LM
 
 </h5>
 
+## 🛠️ Install
+
+1. Clone this repository and navigate to MobileVLM folder
+   ```bash
+   git clone https://github.com/XiaoduoAILab/XmodelLM.git
+   cd xmodellm
+   ```
+
+2. Install Package
+    ```Shell
+    pip install -r requirements.txt
+    ```
+
+## 🗝️ Quick Start
+
+#### Example for Xmodel_VLM model inference
+```bash
+python generate.py
+```
 
