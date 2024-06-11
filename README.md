@@ -77,6 +77,21 @@ We introduce Xmodel-LM, a compact and efficient 1.1B language model pre-trained 
 
 #### Example for Xmodel_LM model inference
 ```bash
-python generate.py
+python generate.py --model_path path/to/folder --device cuda:0
+```
+
+## ✏️ Reference
+
+If you find Xmodel_LM useful in your research or applications, please consider giving a star ⭐ and citing using the following BibTeX:
+
+```
+@misc{wang2024xmodellm,
+      title={Xmodel-LM Technical Report}, 
+      author={Yichuan Wang and Yang Liu and Yu Yan and Xucheng Huang and Ling Jiang},
+      year={2024},
+      eprint={2406.02856},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
