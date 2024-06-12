@@ -6,6 +6,7 @@ from transformers import AutoConfig, AutoTokenizer, AutoModelForCausalLM, pipeli
 from models.modeling_xmodel import XModelForCausalLM
 from models.configuration_xmodel import XModelConfig
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default="xl", help="")
