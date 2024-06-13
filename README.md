@@ -80,7 +80,7 @@ We introduce Xmodel-LM, a compact and efficient 1.1B language model pre-trained 
 Our model files are fully open source on huggingface, you can download them at [here](https://huggingface.co/XiaoduoAILab/Xmodel_LM).
 
 #### Example for Xmodel_LM model inference
-You need to download the model files first and save them in your folder. Then you can run the scripts below, we recommend entering an absolute path as a parameter.
+You need to download the model files first and save them in your folder. Then you can run the scripts below, we recommend entering an absolute path as the parameter.
 ```bash
 python generate.py --model_path path/to/folder --device cuda:0
 ```
