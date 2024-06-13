@@ -18,17 +18,12 @@ if __name__ == "__main__":
 
     model_name, model_path, prompt, max_new_tokens, device = args.model_name, args.model_path, args.prompt, args.max_new_tokens, args.device
 
-    if model_path == '':
-        tokenizer = AutoTokenizer.from_pretrained('XiaoduoAILab/Xmodel_LM', use_fast=False, trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained('XiaoduoAILab/Xmodel_LM', trust_remote_code=True)
-
-    else:
-        tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, trust_remote_code=True)
-        config = XModelConfig.from_name(model_name)
-        model = XModelForCausalLM(config)
-        model.load_state_dict(torch.load('%s/pytorch_model.bin'%model_path))
-        model.eval()
-        model.to(device)
+    tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, trust_remote_code=True)
+    config = XModelConfig.from_name(model_name)
+    model = XModelForCausalLM(config)
+    model.load_state_dict(torch.load('%s/pytorch_model.bin'%model_path))
+    model.eval()
+    model.to(device)
 
     print('model loaded!')
 
