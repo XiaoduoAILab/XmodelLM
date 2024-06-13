@@ -77,7 +77,7 @@ We introduce Xmodel-LM, a compact and efficient 1.1B language model pre-trained 
 
 #### Download Xmodel_LM model
 
-Our model files are fully open source on huggingface, you can download them at [hf](https://huggingface.co/XiaoduoAILab/Xmodel_LM) first!
+Our model files are fully open source on huggingface, you can download them at [here](https://huggingface.co/XiaoduoAILab/Xmodel_LM)!
 
 #### Example for Xmodel_LM model inference
 ```bash
