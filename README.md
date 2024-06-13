@@ -92,7 +92,7 @@ If you find Xmodel_LM useful in your research or applications, please consider g
 ```
 @misc{wang2024xmodellm,
       title={Xmodel-LM Technical Report}, 
-      author={Yichuan Wang and Yang Liu and Yu Yan and Xucheng Huang and Ling Jiang},
+      author={Yichuan Wang and Yang Liu and Yu Yan and Qun Wang and Shulei Wu and Xucheng Huang and Ling Jiang},
       year={2024},
       eprint={2406.02856},
       archivePrefix={arXiv},
